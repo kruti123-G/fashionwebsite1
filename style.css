@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #fff;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header img {
+    margin-right: 20px;
+}
+
+.search-bar {
+    padding: 8px;
+    margin-right: 20px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Navigation Bar */
+nav {
+    margin-left: auto; /* Pushes the nav list to the right */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between navigation items */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: #f1f1f1;
+    color: #007BFF; /* Highlight color on hover */
+}
+
+/* Main Section */
+main {
+    margin-top: 20px;
+}
+
+/* Section 1 */
+.section1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Section 2 - Multiple Images */
+section {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+section img {
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+}
+
+/* Section 3 */
+.section3 img {
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+}
+
+/* Section 4 */
+.section4 img {
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header input {
+        width: 150px;
+    }
+
+    header nav {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    section {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section img {
+        width: 100%;
+        height: auto;
+    }
+}
