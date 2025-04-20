@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Womens Page</title>
+    <style>
+        header {
+            background-color: #fff;
+            padding: 20px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        header img {
+            margin-right: 20px;
+        }
+
+        .search-bar {
+            padding: 8px;
+            margin-right: 20px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            margin-left: auto;
+            /* Pushes the nav list to the right */
+        }
+
+        .nav-list {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            /* Space between navigation items */
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-list li {
+            display: inline;
+        }
+
+        .nav-list a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .nav-list a:hover {
+            background-color: #f1f1f1;
+            color: #007BFF;
+            /* Highlight color on hover */
+        }
+
+        /* Section Styling */
+        .section3 {
+            padding: 50px 20px;
+            background-color: #f7f7f7;
+            /* Light background color */
+            text-align: center;
+        }
+
+        /* About Text Styling */
+        .about-text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            /* Allow content to wrap on smaller screens */
+            max-width: 1200px;
+            margin: 0 auto;
+            /* Center the content */
+        }
+
+        /* About Text Heading */
+        .about-text h2 {
+            font-size: 36px;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* About Text Paragraph */
+        .about-text p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+            /* Center the text */
+        }
+
+        /* Image Styling */
+        .about-text img {
+            width: 50%;
+            /* Set the image width to 50% */
+            height: auto;
+            /* Ensure the image maintains its aspect ratio */
+            border-radius: 8px;
+            /* Rounded corners for the image */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Subtle shadow */
+            object-fit: cover;
+            /* Ensures the image covers the space without distortion */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-text {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about-text h2 {
+                font-size: 28px;
+                /* Smaller font for mobile */
+            }
+
+            .about-text p {
+                font-size: 14px;
+                /* Smaller font for mobile */
+                margin-bottom: 15px;
+            }
+
+            .about-text img {
+                width: 80%;
+                /* Adjust image width on smaller screens */
+                height: auto;
+            }
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+            <div class="header-container">
+                <img src="/img/westsidelogo.webp" alt="Westside Logo" height="50">
+                <input type="text" placeholder="Search" class="search-bar">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="womens.html">Women</a></li>
+                        <li><a href="mens.html">Mens</a></li>
+                        <li><a href="kids.html">Kids</a></li>
+                        <li><a href="beauty.html">Beauty</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About-us.html">v-more</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <section class="section1"></section>
+        <img src="img/womenpage1.jpg" alt="bg-img" height="600" width="100%">
+        </section>
+        <!--<section class="section2">
+            <img src="/img/womenpage2.jpg" alt=" ">
+            <img src="/img/womenpage3.jpg" alt=" ">
+            <img src="/img/womenpage4.jpg" alt=" ">
+            <img src="/img/womenpage5.jpg" alt=" ">
+        </section>-->
+        <section class="section3"></section>
+        <div class="about-text">
+            <span>
+                <h2>About Us</h2>
+            </span>
+            <span>
+                <p>Welcome to Westide, where fashion meets style, comfort,<br> and sophistication. We believe that every
+                    woman
+                    deserves to look and feel her best, and we’<br>re here to make that happen. Our curated collection
+                    features
+                    a range of trendy, timeless,<br> and comfortable clothing, designed to suit every occasion and
+                    personal
+                    style.</p>
+                <p>From chic workwear to casual weekend looks, and everything in between,<br> we offer high-quality
+                    clothing
+                    made with the finest materials.<br> Our commitment is to provide you with stylish pieces that make
+                    you feel
+                    confident<br> and empowered, no matter where life takes you.</p>
+                <p>At [Your Brand Name], we are passionate about celebrating individuality <br> and embracing diversity.
+                    Whether
+                    you’re looking for the perfect dress <br>for a night out, a cozy sweater for those chilly days, or a
+                    statement<br> piece to add to your wardrobe, we’ve got you covered.</p>
+            </span>
+            <!--<span><img src="/img/womenpage6.jpg" alt="Fashion Image" height="500px" width="50%"></span>-->
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright @copy 2025 | All rights are reserved</p>
+    </footer>
+</body>
+
+</html>
